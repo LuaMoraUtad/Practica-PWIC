@@ -191,7 +191,8 @@ function App() {
                     alt="First slide"
                     />
                 <Carousel.Caption>
-                    <label class="carrusel_letra">{aux.resultado}</label>
+                  <label class="carrusel_letra">{aux.nombre1} vs {aux.nombre2}</label>
+                    <label class="carrusel_letra">Ganador/Ganadora: {aux.resultado}</label>
                 </Carousel.Caption>
                 </Carousel.Item>
 
